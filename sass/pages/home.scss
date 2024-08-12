@@ -1,10 +1,10 @@
 .container00 {
     &.container01 {
-        background-image: url(../../images/home/01.jpg);
+        background-image: url(../../images/home/02.jpg);
     }
 
     &.container02 {
-        background-image: url(../../images/home/03.jpg);
+        background-image: url(../../images/home/05.jpg);
     }
 
     &.container03 {
@@ -23,11 +23,19 @@
 .shortTitle {
     width: 550px;
     margin-bottom: 25px;
+    color: #007a4e;
+    font-size: 2rem;
 }
 
 .mediumTitle {
-    width: 650px;
+    width: 700px;
     margin-bottom: 25px;
+    font-size: 4rem;
+    color: #007a4e;
+}
+
+.navbar-brand img {
+    width: 70px;
 }
 
 @media (max-width: 750px) {
